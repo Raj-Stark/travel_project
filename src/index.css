@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,600&family=Poppins:ital,wght@0,100;0,200;1,600&display=swap");
+
+/* :root {
+  --primary-dark: #5651e5;
+  --primary-light: #789dff;
+} */
+
+.icon {
+  color: var(--primary-dark);
+}
+
+@layer base {
+  li {
+    @apply p-4 text-xl;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  .icon {
+    @apply text-2xl cursor-pointer;
+  }
+
+  .gradient {
+    @apply bg-gradient-to-r from-primary-dark to-primary-light;
+  }
+}
