@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 
 const PrimaryButton = ({ classname, title, onClick, icon }) => {
   return (
